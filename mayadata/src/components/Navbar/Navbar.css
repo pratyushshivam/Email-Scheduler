@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.navbar__main {
+  height: 100vh;
+  width: 250px;
+  background-color: #1e5f74;
+}
+.navbar__main__all {
+  /* border: 1px solid green; */
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar__main__all__header {
+  width: 250px;
+  height: 50px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+}
+.navbar__main__all__redirect {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: column;
+  height: 100px;
+}
+.navbar__main__all__redirect__home {
+  height: 50px;
+  width: 250px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1%;
+  padding-left: 5%;
+  cursor: pointer;
+}
+.navbar__main__all__redirect__home h2 {
+  margin-left: 5%;
+  color: white;
+  letter-spacing: 0.9px;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: Roboto;
+  line-height: 28.3px;
+}
+
+.background-color {
+  background-color: #133b5c;
+}
+
+/* Hamburger  */
+.hamburger {
+  /* border: 1px solid red; */
+  height: 3vh;
+  width: 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  cursor: pointer;
+}
+.navbar__main__all__header p {
+  color: white;
+  font-weight: 800;
+  margin-left: 10%;
+  font-size: 15px;
+}
+.line {
+  width: 100%;
+  border-bottom: 3px solid white;
+  height: 1px;
+}
+.short {
+  width: 50%;
+}

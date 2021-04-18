@@ -1,0 +1,53 @@
+.filter__main {
+  /* border: 1px solid red; */
+  height: 15vh;
+  margin-top: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 20%;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.filter__main__one {
+  /* border: 1px solid red; */
+  height: 4vh;
+  width: 30%;
+  border-bottom: 1.5px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 1%;
+}
+.filter__main__one input {
+  outline: none;
+  border: none;
+  width: 80%;
+  margin-left: 2%;
+}
+.filter__main__one input::placeholder {
+  color: black;
+}
+.filter__main__one p {
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 3%;
+}
+.react-date-picker__wrapper {
+  border: none !important;
+  margin-left: 2%;
+  /* border-bottom: 2px solid black; */
+}
+.calendar {
+  margin-left: 5% !important;
+  border-bottom: 1.5px solid rgb(0, 0, 0) !important;
+  width: 200%;
+  padding-bottom: 5%;
+}
+
+.filter_two {
+  border: none;
+}
+p {
+  white-space: nowrap;
+}
